@@ -228,7 +228,7 @@ header{
     letter-spacing: 0.13rem;
 }
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .position-company{
         align-items: center;
         margin-left: -110px;
@@ -247,7 +247,7 @@ header{
           max-width: 370px;
        }   
       }
-      
+       */
 
 
        /* project page card style */
