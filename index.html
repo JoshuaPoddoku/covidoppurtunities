@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Covid Oppurtunities | Dashboard</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style>
+    /* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: #666666;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color:whitesmoke;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+  border-radius: 10px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dropdown{
+  display: none;
+}
+
+@media screen and (max-width: 1200px){
+  .dropdown{
+    display: block;
+  }
+
+  .navigator{
+    display: none;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+  <header class="mr-n5">
+    <!-- background illustration--> 
+</header>
+ 
+
+
+  <div class="col-md-4 navigator">
+
+
+<ul>
+  <li><a href="#" class="font-opacity font-prop"><i class="fa fa-user" aria-hidden="true"></i>
+    Profile</a></li>
+  <li><a href="#" class="font-opacity font-prop"><i class="fa fa-building" aria-hidden="true"></i>
+    Companies</a></li>
+  <li><a href="#" class="font-opacity font-prop"><i class="fa fa-fire" aria-hidden="true"></i>
+
+    Projects</a></li>
+  <li><a href="#" class="font-opacity font-prop">Logout</a></li>
+</ul>
+  </div>
+
+  <!--Main layout-->
+  <main class=" pt-n2 mx-lg-5">
+   
+    <nav class="container" >
+      <div class="row">
+        
+        <div class="dropdown">
+          <img  onclick="myFunction()" class="dropbtn icon-ham" src="/img/svg/Asset 9.svg" alt="ham">
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Companies</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+        
+      </div>
+
+<!-- Basic dropdown --> 
+      <div class="col-md-3 offset-md-8" >
+      <form class="d-flex justify-content-center pt-3">
+
+        
+        <!-- Default input -->
+        <div class="row pt-5">
+          <input type="search" placeholder="Search Companies" aria-label="Search" id="input" class="round-border search-bar">
+          <a href="#"><i class="fas fa-search icon-search pl-2 pt-0" aria-hidden="true"></i></a>
+          <!-- <button href="#" class="btn btn-primary"> Loout</button> -->
+        </div>        
+      </form>
+    </div>
+    </nav>
+    <div class="mt-4">
+
+      <!-- Heading -->
+
+        </div>
+
+      </div>
+      <!-- Heading -->
+
+      
+      </div>
+
+      
+      <div class="mr-n5">
+        <!--Grid row-->
+        <div class="ml-5 row wow fadeIn">
+  
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-5 mb-3 mr-4">
+  
+            <!--Card-->
+            <div class="card h-100" id="card-style">
+  
+  
+              <!--Card content-->
+              <a href="#">            
+                <div class="card-body p-3 mb-n1" id="card-style">
+                <div class="row">
+                  <div class="pl-4">
+                    <a href="#" target="_blank"><img src="img/companies/delhivery.png" class="img-thumbnail" width="80px;"/></a>
+                  </div>
+                  <div class="col pl-4 ">
+                    <div class="row pl-3"><span class="Card-title pb-2">Delhivery</span></div>
+                    <div class="mb-2">Gurgaon,India</div> <div class="mb-2">10,000+ employees</div><span class="font-weight-bold position">10+ open positions</span>
+                  </div>
+                </div>
+                <div class="row pl-4 tag-text mb-3">
+                  <div class=" pr-2 pt-3">
+                    <a class="border rounded p-1">Logistics</a>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <a class="border rounded p-1">Supply Chain</a>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <a class="border rounded p-1">Omni-channel solutions</a>
+                  </div>
+                  <div class="pr-2  pt-3">
+                    <a class="border rounded p-1">Sourcing</a>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <a class="border rounded p-1">Order fulfillment solutions</a>
+                  </div>
+                  
+                </div>
+              </div>
+              </a>
+            </div>
+  
+          </div>
+            <!--/.Card-->
+                  <!--Grid column-->
+                  <div class=" col-lg-5 col-md-5 mb-3 mr-4">
+  
+                    <!--Card-->
+                    <div class="card h-100" id="card-style">
+          
+          
+                      <!--Card content-->
+                      <a href="#">            
+                        <div class="card-body p-3 mb-n1" id="card-style">
+                        <div class="row">
+                          <div class="pl-4">
+                            <a href="#" target="_blank"><img src="img/companies/delhivery.png" class="img-thumbnail" width="80px;"/></a>
+                          </div>
+                          <div class="col pl-4 ">
+                            <div class="row pl-3"><span class="Card-title pb-2">Delhivery</span></div>
+                            <div class="mb-2">Gurgaon,India</div> <div class="mb-2">10,000+ employees</div><span class="font-weight-bold position">10+ open positions</span>
+                          </div>
+                        </div>
+                        <div class="row pl-4 tag-text mb-3">
+                          <div class=" pr-2 pt-3">
+                            <a class="border rounded p-1">Logistics</a>
+                          </div>
+                          <div class="pr-2 pt-3">
+                            <a class="border rounded p-1">Supply Chain</a>
+                          </div>
+                          <div class="pr-2 pt-3">
+                            <a class="border rounded p-1">Omni-channel solutions</a>
+                          </div>
+                          <div class="pr-2  pt-3">
+                            <a class="border rounded p-1">Sourcing</a>
+                          </div>
+                          <div class="pr-2 pt-3">
+                            <a class="border rounded p-1">Order fulfillment solutions</a>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+          
+                  </div>
+                    <!--/.Card-->
+  
+        </div>
+        <!--Grid row-->
+  
+        
+        <!--Grid row-->
+        <div class="ml-5 row wow fadeIn">
+  
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-5 mb-3 mr-4">
+  
+            <!--Card-->
+            <div class="card" id="card-style">
+  
+  
+              <!--Card content-->
+              <div class="card-body p-3 mb-n1" id="card-style">
+                <div class="row">
+                  <div class="pl-4">
+                    <a href="#" target="_blank"><img src="img/companies/Flock.png" class="img-thumbnail" width="80px;"/></a>
+                  </div>
+                  <div class="col pl-4 ">
+                    <div class="row pl-3"><span class="Card-title pb-2">Flock</span></div>
+                    <div class="mb-2">Mumbai,India</div> <div class="mb-2">100-150 employees</div><span class="font-weight-bold position">5+ open positions</span>
+                  </div>
+                </div>
+                <div class="row pl-4 tag-text mb-3">
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">Team Collaboration</span>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">Productivity app</span>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">CPaas-Communications Platform as a Service</span>
+                  </div>
+                  
+                </div>
+              </div>
+  
+            </div>
+            <!--/.Card-->
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-5 mb-3 mr-4">
+  
+            <!--Card-->
+            <div class="card" id="card-style">
+  
+  
+              <!--Card content-->
+              <div class="card-body p-3 mb-n1" id="card-style">
+                <div class="row">
+                  <div class="pl-4">
+                    <a href="#" target="_blank"><img src="img/companies/creditkudos.png" class="img-thumbnail" width="80px;"/></a>
+                  </div>
+                  <div class="col pl-4 ">
+                    <div class="row pl-3"><span class="Card-title pb-2">Credit Kudos</span></div>
+                    <div class="mb-2">London,England</div> <div class="mb-2">10-50 employees</div><span class="font-weight-bold position">5+ open positions</span>
+                  </div>
+                </div>
+                <div class="row pl-4 tag-text mb-3">
+                  <div class=" pr-2 pt-3">
+                    <span class="border rounded p-1">Fintech</span>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">Open banking</span>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">Machine Learning</span>
+                  </div>
+                  <div class="pr-2  pt-3">
+                    <span class="border rounded p-1">Data Science</span>
+                  </div>
+                  <div class="pr-2 pt-3">
+                    <span class="border rounded p-1">Credit risk</span>
+                  </div>
+                  <div class="pr-2 pt-3" >
+                    <span class="border rounded p-1">Lending decisions</span>
+                  </div>
+                  
+                </div>
+              </div>
+  
+            </div>
+            <!--/.Card-->
+  
+          </div>
+  
+        </div>
+          <!--Grid column-->
+          
+      </div>
+
+      <nav aria-label="Page navigation example">
+        <ul class="pagination pg-blue">
+          <li class="page-item pr-2 ">
+            <a class="page-link" tabindex="-1">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link">1</a></li>
+          <li class="page-item active">
+            <a class="page-link">2 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="page-item"><a class="page-link">3</a></li>
+          <li class="page-item">
+            <a class="page-link">Next</a>
+          </li>
+        </ul>
+      </nav>
+
+
+
+    </div>
+
+
+  </main>
+  <!--Main layout-->
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+  <script>
+    $('li').click(function() {
+      $(this).addClass('active').siblings().removeClass('active');
+  </script>
+  <script>
+    $(document).ready(function() {
+      // SideNav Button Initialization
+      $(".button-collapse").sideNav();
+      // SideNav Scrollbar Initialization
+      var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+      var ps = new PerfectScrollbar(sideNavScrollbar);
+      }
+      });
+      
+      );
+  </script>
+  <script>
+
+  function myFunction(){
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script>
+  <script>
+    jQuery(document).ready(function($){ 
+      $('#sub-menu').on('change', function () {
+        var url = $(this).val(); // get selected value
+        if (url) { // require a URL
+          window.location = url; // redirect
+        }
+        return false;
+      });
+    });  
+  </script>
+</body>
+
+</html>

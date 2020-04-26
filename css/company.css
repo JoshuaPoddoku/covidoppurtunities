@@ -1,0 +1,236 @@
+.sidebar-fixed{height:100vh;width:270px;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);z-index:1050;background-color:#fff;padding:0 1.5rem 1.5rem}.sidebar-fixed .list-group .active{-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);-webkit-border-radius:5px;border-radius:5px}.sidebar-fixed .logo-wrapper{padding:2.5rem}.sidebar-fixed .logo-wrapper img{max-height:50px}@media (min-width:1200px){.navbar,.page-footer,main{padding-left:270px}}@media (max-width:1199.98px){.sidebar-fixed{display:none}}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
+body{
+    background-color: #ffffff!important;
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+.theme-color{
+    background-color:#3525D3;
+    color: rgb(240, 230, 230);
+}
+
+.theme-color:hover{
+    color: white;
+}
+
+
+.round-border{
+    border-radius: 100px!important;
+}
+
+
+
+main{
+    background-color:#ffffff
+    !important;
+}
+
+#card-style{
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .07em;
+    color: #38374a;
+    margin-bottom: 6px;
+}
+
+
+.position{
+    color:#2f3541;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tag-text{
+    font-family: 'Arimo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .02em;
+    color: #18181a;
+    flex: none;
+    order: 0;
+    line-height: 20px;
+}
+
+.Card-title{
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: .06em;
+    color: #0f0f21;
+    padding-bottom: 100px;
+}
+
+.custom-bar{
+    border-radius: 100px!important;
+}
+
+.search-bar{
+    background-color: transparent;
+    border-color:#666666;
+    border-style: solid;
+    border-width: 2px;
+    margin: 1px 1px 0 1px;
+}
+
+form{
+    z-index: 100;
+}
+
+.icon-search{
+    text-emphasis: none;
+    text-decoration: none;
+    border: none;
+    color:#666666;
+}
+
+#input{
+    position: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    position: top;
+}
+
+
+header{
+    content: '';
+    background-image: url(/img/4x/SVG/Asset\ 3.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: top right;
+    top: 0;
+    /* background-size: 100% 100%; */
+    right: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.side-tab{
+    float: left;
+}
+
+.navigator{
+    top: 260px;
+    bottom: 300px;
+    position: fixed;
+    justify-content: center;
+}
+
+.navigator ul li{
+    padding-bottom: 40px;
+    list-style-type: none;
+}
+
+
+.font-prop{
+    font-family: 'Arimo',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: .05em;
+    color: #313030;
+    opacity: 0.3;
+}
+
+
+
+.font-prop:hover{
+    text-decoration: none;
+    color: #313030;
+    font-size: 23px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.custom-nav{
+    color:transparent;
+    display: none;
+}
+
+.icon-ham{
+    width: 25%;
+}
+
+/* companies page*/
+
+.company-card{
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+.back-button i{
+    width: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.company-title{
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.1rem;
+}
+
+.logo-right{
+    margin-top: -1rem;
+
+}
+
+
+
+.company-description{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+ p{
+    margin-bottom: 1rem;
+}
+
+.second-div-head{
+    font-family: 'Arimo', sans-serif;
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 0.12rem;
+    padding-top: 10px;
+    color: #212529;
+    
+}
+
+.submit-ideas{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    letter-spacing: 0.13rem;
+}
+
+@media (max-width: 768px){
+    .position-company{
+        align-items: center;
+        margin-left: -110px;
+    }
+
+    .fields-center{
+        text-align: center;
+    }
+}

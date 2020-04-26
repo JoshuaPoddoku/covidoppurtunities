@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Covid Oppurtunities | Dashboard</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/projects.css" rel="stylesheet">
+  <style>
+    /* Dropdown Button */
+    .dropbtn {
+      background-color: transparent;
+      color: #666666;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover,
+    .dropbtn:focus {
+      background-color: whitesmoke;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      border-radius: 10px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      border-radius: 10px;
+    }
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+      display: block;
+    }
+
+    .dropdown {
+      display: none;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .dropdown {
+        display: block;
+      }
+
+      .navigator {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- background illustration-->
+  </header>
+
+
+
+  <div class="col-md-4 navigator">
+
+
+    <ul>
+      <li><a href="#" class="font-opacity font-prop"><i class="fa fa-user" aria-hidden="true"></i>
+          Profile</a></li>
+      <li><a href="#" class="font-opacity font-prop"><i class="fa fa-building" aria-hidden="true"></i>
+          Companies</a></li>
+      <li><a href="#" class="font-opacity font-prop"><i class="fa fa-fire" aria-hidden="true"></i>
+
+          Projects</a></li>
+      <li><a href="#" class="font-opacity font-prop">Logout</a></li>
+    </ul>
+  </div>
+
+  <!--Main layout-->
+  <main class=" pt-n2 mx-lg-5">
+
+    <nav class="container">
+      <div class="row">
+
+        <div class="dropdown">
+          <img onclick="myFunction()" class="dropbtn icon-ham" src="/img/svg/Asset 9.svg" alt="ham">
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Companies</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Basic dropdown -->
+      <div class="col-md-3 offset-md-8">
+        <form class="d-flex justify-content-center pt-3">
+
+
+          <!-- Default input -->
+          <div class="row">
+            <input type="search" placeholder="Search Projects" aria-label="Search" id="input"
+              class="round-border search-bar">
+            <a href="#"><i class="fas fa-search icon-search pl-2 pt-2" aria-hidden="true"></i></a>
+            <!-- <button href="#" class="btn btn-primary"> Loout</button> -->
+          </div>
+        </form>
+      </div>
+    </nav>
+    <div class="mt-4">
+
+      <!-- Heading -->
+
+    </div>
+
+
+    </div>
+
+    <div class="">
+      <div class="row">
+        <div class="col-md-4 mr-n2">
+          <ul class="tabs-links list-group">
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Webpage as podcast</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                  <span class=" ml-1 Card-project-title float-left" style="color: black;">Redefine the customer experience</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border ">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class=" ml-1 Card-project-title float-left" style="color: black;">Information you'd wish to visualize</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1  project-tab-border "> 
+              <a href="#" class="tab-link">
+                <img src="/img/project-icons/programming.svg" alt="Tabs icon 02" class="project-icons mr-1 float-left img-thumbnail">
+                <span class=" ml-1 Card-project-title float-left" style="color: black;">Information you'd wish to visualize</span>
+              </a>
+            </li>
+          </ul>      
+        </div>
+        <div class="col-md-4 mr-n2">
+          <ul class="tabs-links list-group">
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Webpage as podcast</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                  <span class=" ml-1 Card-project-title float-left" style="color: black;">Redefine the customer experience</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border ">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Webpage as podcast</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border "> 
+              <a href="#" class="tab-link">
+                <img src="/img/project-icons/programming.svg" alt="Tabs icon 02" class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Break the fake</span>
+              </a>
+            </li>
+          </ul> 
+        </div>
+        <div class="col-md-4 mr-n2">
+          <ul class="tabs-links list-group">
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Webpage as podcast</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                  <span class=" ml-1 Card-project-title float-left" style="color: black;">Redefine the customer experience</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border ">
+              <a href="#" class="tab-link">
+                  <img src="/img/project-icons/programming.svg" alt="Tabs icon 01"  class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Webpage as podcast</span>
+              </a>
+            </li>
+            <li class="list-group-item z-depth-1 mb-4 project-tab-border "> 
+              <a href="#" class="tab-link">
+                <img src="/img/project-icons/programming.svg" alt="Tabs icon 02" class="project-icons mr-1 float-left img-thumbnail">
+                <span class="h4 ml-1 Card-project-title float-left" style="color: black;">Break the fake</span>
+              </a>
+            </li>
+          </ul>      
+        </div>
+      </div>
+
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination pg-blue justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item">
+          <a class="page-link">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+  <!--Main layout-->
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+  <script>
+    // footer date
+    var d = new Date();
+    document.getElementById("year").innerHTML = d.getFullYear();
+  </script>
+  <script>
+    $(document).ready(function () {
+      // SideNav Button Initialization
+      $(".button-collapse").sideNav();
+      // SideNav Scrollbar Initialization
+      var sideNavScrollbar = document.querySelector('.custom-scrollbar');
+      var ps = new PerfectScrollbar(sideNavScrollbar);
+    });
+  </script>
+  <script>
+
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+  <script>
+    jQuery(document).ready(function ($) {
+      $('#sub-menu').on('change', function () {
+        var url = $(this).val(); // get selected value
+        if (url) { // require a URL
+          window.location = url; // redirect
+        }
+        return false;
+      });
+    });  
+  </script>
+</body>
+
+</html>
